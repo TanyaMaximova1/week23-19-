@@ -1,4 +1,5 @@
 // задание 1
+//никак не получается догадаться, как реализовать эту задачу
 function getPosts(posts) {
     fetch('https://jsonplaceholder.typicode.com/posts')
         .then(response => response.json())
@@ -35,6 +36,7 @@ function getPosts(posts) {
         })
         .catch(err => console.log(err));
 }
+
 
 
 //задание 2
